@@ -1,16 +1,16 @@
 {
   "name": "DualRTC-io",
-  "author": "Team.DualRTC",
-  "version": "1.0",
+  "author": "DualRTC",
+  "version": "1.6.1",
   "manifest_version": 2,
   "minimum_chrome_version": "34",
-  "description": "Desktop Capturing that can be used to capture content of screen, individual windows or tabs.",
+  "description": "Getting source id of screen, individual windows or tabs.",
   "homepage_url": "http://DualRTC-io.github.io/",
   "background": {
     "scripts": ["background-script.js"],
     "persistent": false
   },
-  "content_script": [ {
+  "content_scripts": [ {
     "js": [ "content-script.js" ],
     "all_frames": true,
     "matches": ["*://112.108.40.152/*"]
